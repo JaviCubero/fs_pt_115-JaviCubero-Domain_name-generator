@@ -1,5 +1,105 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
     background: white;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.btn-circular {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    color: white;
+    font-size: 5vh;
+    font-weight: 900;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-circular:hover {
+    transform: translateY(3px);
+    color: white;
+}
+
+.btn-circular:active {
+    color: white !important;
+}
+
+.btn-circular:focus {
+    color: white;
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-com, .btn-com:hover, .btn-com:focus, .btn-com:active {
+    background-color: rgb(8, 182, 226, 0.8) !important;
+}
+
+.btn-inf, .btn-inf:hover, .btn-inf:focus, .btn-inf:active {
+    background-color: rgba(15, 209, 183, 0.8) !important;
+}
+
+.btn-net, .btn-net:hover, .btn-net:focus, .btn-net:active {
+    background-color: rgba(226, 177, 85, 0.8) !important;
+}
+
+.btn-org, .btn-org:hover, .btn-org:focus, .btn-org:active {
+    background-color: rgba(191, 116, 214, 0.8) !important;
+}
+
+.btn-biz, .btn-biz:hover, .btn-biz:focus, .btn-biz:active {
+    background-color: rgba(207, 79, 122, 0.8) !important;
+}
+
+.btn-edu, .btn-edu:hover, .btn-edu:focus, .btn-edu:active {
+    background-color: rgba(235, 93, 100, 0.8) !important;
+}
+
+.dom {
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.description {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    padding: 2px 10px 2px 10px;
+    width: fit-content;
+}
+
+.com {
+    background-color: rgba(6, 126, 156, 0.9);
+}
+
+.info {
+    background-color: rgba(10, 141, 124, 0.9);
+}
+
+.net {
+    background-color: rgba(122, 95, 45, 0.9);
+    line-height: 1;
+}
+
+.org {
+    background-color: rgba(126, 77, 141, 0.9);
+}
+
+.biz {
+    background-color: rgba(133, 50, 78, 0.9);
+}
+
+.edu {
+    background-color: rgba(151, 59, 64, 0.9);
 }

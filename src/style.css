@@ -103,3 +103,8 @@ body {
 .edu {
     background-color: rgba(151, 59, 64, 0.9);
 }
+
+.domain-list {
+    list-style-type: none;
+    padding-left: 0;
+}
